@@ -15,7 +15,7 @@ command, num1, num2 = nums.split()
 
 if (command == "add"):
   result = add(num1, num2)
-  print(f"{num1} plus {num2} equals {result}"
+  print(f"{num1} plus {num2} equals {result}")
 elif (command == "sub"):
   result = subtract(num1, num2)
   print(f"{num1} minus {num2} equals {result}")

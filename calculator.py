@@ -4,7 +4,7 @@ def multiply(a, b):
 def divide(a, b):
   return float(a) / float(b)
 
-def my_add(a, b):
+def That_add(a, b):
   return float(a) + float(b)
 
 def subtract(a, b):
@@ -14,7 +14,7 @@ nums = input("Enter a command followed by two numbers: ")
 command, num1, num2 = nums.split()
 
 if (command == "add"):
-  result = my_add(num1, num2)
+  result = That_add(num1, num2)
   print(f"{num1} plus {num2} equals {result}")
 elif (command == "sub"):
   result = subtract(num1, num2)

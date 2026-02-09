@@ -1,9 +1,14 @@
 def multiply(a, b):
-  return a * b
+  return float(a) * float(b)
 
-num1 = float(input("Enter the first number: "))
-num2 = float(input("Enter the second number: "))
+def divide(a, b):
+  return float(a) / float(b)
 
-result = multiply(num1, num2)
+nums = input("Enter two numbers: ")
+num1, num2 = nums.split()
 
-print(f"{num1} times {num2} equals {result}")
+result1 = multiply(num1, num2)
+result2 = divide(num1, num2)
+
+print(f"{num1} times {num2} equals {result1}")
+print(f"{num1} divided by {num2} equals {result2}")
